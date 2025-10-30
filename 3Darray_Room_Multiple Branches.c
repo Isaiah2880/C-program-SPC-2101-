@@ -20,16 +20,16 @@ int main() {
     printf("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
         // Assign random occupancy (0 or 1)
     for (branch = 0; branch < 3; branch++) {
-        for (floor = 0; floor < 5; floor++) {
-            for (room = 0; room < 10; room++) {
-                chain[branch][floor][room] = rand() % 2;
-                if (chain[branch][floor][room] == 1)
+    for (floor = 0; floor < 5; floor++) {
+    for (room = 0; room < 10; room++) {
+    chain[branch][floor][room] = rand() % 2;
+    if (chain[branch][floor][room] == 1)
                     totalOccupied++;
-            }
-        }
+    }
+    }
     }
 
     printf("Total Occupied Rooms Across All Branches: %d\n", totalOccupied);
 
     return 0;
-}
+    }
