@@ -1,7 +1,7 @@
 /*
 Name:Isaiah otieno 
 Registration number :PA106/G/28801/25
-Description:C Program to monitor revenue and room occupancy 
+Description:C Program for 1D array Weekly Revenue Tracker 
 */
 
 #include <stdio.h>
